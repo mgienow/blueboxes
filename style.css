@@ -1,0 +1,51 @@
+
+    div {
+        width: 80%;
+        margin: 0 auto;
+        /*background-color: #e6e6e6; */
+    }
+
+    div div {
+        height: 50px;
+      /*  float: left; */
+      /*  width: 33%; */
+        margin: 0;
+
+    }
+
+    div div:first-child {
+        /*background-color: green; */
+        position: relative;
+        font-size: 30px;
+}
+    div div:first-child:before,
+
+
+    div div:first-child:after {
+        font-size: 100px;
+        font-family: serif;
+        color: hotpink;
+        position: absolute;
+
+}
+
+    div div:first-child:before {
+        content: "\201c";
+        top: -30px;
+        left: -50px;
+
+    }
+
+    div div:first-child:after {
+        content: "\201d";
+        top: -10px;
+        right: 18px;
+    }
+
+
+    div:nth-child(2n){
+   /*background-color: blue; */
+}
+    div:nth-child(3n){
+       /*background-color: red; */
+    }
